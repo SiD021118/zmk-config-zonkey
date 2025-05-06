@@ -219,7 +219,7 @@
 &kp JP_HANZEN  &trans  &trans          &kp UP_ARROW      &trans                                              &trans          &kp UP_ARROW    &moA             &moB  &moC
 &kp TAB        &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans                &kp TAB      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &moD  &moE
 &trans         &trans  &trans          &trans            &kp PAGE_UP      &kp PAGE_DOWN         &kp RS(TAB)  &kp PAGE_DOWN   &kp PAGE_UP     &moF             &moG  &moH
-&mt LCTL ESC   &trans  &trans          &lt 5 INT_HENKAN  &lt 4 SPACE      &lt 1 INT_MUHENKAN                 &trans          &to 3                                        &moI
+&mt LCTL ESC   &trans  &trans          &lt 5 INT_HENKAN  &lt 4 SPACE      &lt 1 INT_MUHENKAN                 &trans          &sl 3                                        &moI
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
@@ -230,7 +230,7 @@
 &kp N1         &mo2    &kp N3  &kp N4              &kp N5                                                &mo6                &mo7                 &mo8    &mo9    &mo0
 &kp LG(TAB)    &trans  &trans  &trans              &trans               &trans                &kp RC(V)  &kp RC(A)           &trans               &trans  &trans  &kp TAB
 &trans         &trans  &trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans                &kp RC(C)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans  &trans  &caps_word
-&kp LC(SPACE)  &trans  &trans  &lt 6 INT_HENKAN    &lt 2 SPACE          &lt 4 INT_MUHENKAN               &to 3               &trans                                           &kp RC(SPACE)
+&kp LC(SPACE)  &trans  &trans  &lt 6 INT_HENKAN    &lt 2 SPACE          &lt 4 INT_MUHENKAN               &sl 3               &trans                                           &kp RC(SPACE)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(TAB) LS(LC(TAB))>;
@@ -244,7 +244,7 @@
 &trans   &trans                  &trans  &lt 3 INT_HENKAN         &lt 6 SPACE  &lt 5 INT_MUHENKAN            &trans   &trans                                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_4 {
